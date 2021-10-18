@@ -1,1 +1,3 @@
-# AirSense-air-quality-application
+# AirSense - Air Quality Monitoring Application
+
+## TODO: Write README.md
