@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/control_navigation"
+    app:startDestination="@id/navigation_device">
+
+    <fragment
+        android:id="@+id/navigation_data"
+        android:name="com.test.bluetoothlowenergyapplication.control.ui.data.DataFragment"
+        android:label="@string/navigation_data_string"
+        tools:layout="@layout/control_fragment_data_layout"/>
+
+    <fragment
+        android:id="@+id/navigation_device"
+        android:name="com.test.bluetoothlowenergyapplication.control.ui.device.DeviceFragment"
+        android:label="@string/navigation_device_string"
+        tools:layout="@layout/control_fragment_device_layout"/>
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.test.bluetoothlowenergyapplication.control.ui.map.MapFragment"
+        android:label="@string/navigation_map_string"
+        tools:layout="@layout/control_fragment_map_layout"/>
+
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="com.test.bluetoothlowenergyapplication.control.ui.statistics.StatisticsFragment"
+        android:label="@string/navigation_statistics_string"
+        tools:layout="@layout/control_fragment_statistics_layout"/>
+</navigation>

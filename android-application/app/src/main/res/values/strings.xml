@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Air Sense</string>
+
+    <!-- Permission details -->
+    <string name="bluetooth_le_not_supported">
+        Bluetooth LE is not supported on this device
+    </string>
+    <string name="location_permission_denied">
+        If location permission is not granted, the Bluetooth LE scan will fail silently.
+        Please change the location permission for this application from Settings
+    </string>
+    <string name="control_no_network">
+        Network connection required to access cloud services. Please set an internet connection.
+    </string>
+
+    <!-- Control activity fragments -->
+    <string name="navigation_device_string">Device</string>
+    <string name="navigation_data_string">Data</string>
+    <string name="navigation_map_string">Maps</string>
+    <string name="navigation_statistics_string">Statistics</string>
+
+    <!-- Buttons -->
+    <string name="scan_search_button_description">Search button</string>
+    <string name="device_settings_button_description">Settings button</string>
+    <string name="data_refresh_button_description">Refresh data button</string>
+    <string name="map_refresh_button_description">Refresh map button</string>
+
+    <!-- Actions -->
+    <string name="scan_action_search">Search</string>
+    <string name="device_action_disconnect">Disconnect</string>
+    <string name="device_action_restart">Restart</string>
+    <string name="data_action_refresh">Refresh</string>
+
+    <!-- Data characteristics -->
+    <string name="data_gas_text">IAQ</string>
+    <string name="data_gas_iaq">(Index for Air Quality)</string>
+    <string name="data_temperature_text">Temp.</string>
+    <string name="data_humidity_text">Hum.</string>
+    <string name="data_pressure_text">Press.</string>
+    <string name="data_light_text">Light</string>
+    <string name="data_other_text">Others</string>
+    <string name="data_na_text">N/A</string>
+
+    <!-- Cloud URL & mappings -->
+    <string name="cloud_base_url">https://gattbackendapplication-7fahpmrjqa-lm.a.run.app/</string>
+    <string name="cloud_measurements_service_mapping">measurements/</string>
+    <string name="cloud_get_measurements_mapping">get-measurements</string>
+    <string name="cloud_get_area_measurements_mapping">get-area-measurements</string>
+    <string name="cloud_get_measurement_mapping">get-measurement?location=</string>
+    <string name="cloud_register_measurement_mapping">register-measurement</string>
+    <string name="cloud_update_measurement_mapping">update-measurement</string>
+    <string name="cloud_delete_measurement_mapping">delete-measurement?location=</string>
+</resources>

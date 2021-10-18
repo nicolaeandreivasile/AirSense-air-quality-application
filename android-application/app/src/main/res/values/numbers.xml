@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="excellent_limit_begin">0</integer>
+    <integer name="good_limit_begin">50</integer>
+    <integer name="lightly_limit_begin">100</integer>
+    <integer name="moderately_limit_begin">150</integer>
+    <integer name="heavily_limit_begin">200</integer>
+    <integer name="severely_limit_begin">250</integer>
+    <integer name="extremely_limit_begin">350</integer>
+
+    <integer name="limit_no">9</integer>
+
+    <integer name="statistics_y_minimum">0</integer>
+    <integer name="statistics_y_maximum">400</integer>
+</resources>
