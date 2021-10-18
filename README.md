@@ -18,6 +18,6 @@ The mobile application is the secondary component of the solution. Due to develo
 ## Persistent data storage
 Data needs to be available at any time, and not be lost due to external events. Therefore, persistent storage is implemented as a backend application with use of databases, where measurements are stored and can be accessed easily at any time throughout a backend application.
 
-## Demo
-A demo showcasing the workflow of the proposed solution can be found at the following link:
+## Demo & presentation
+A more detailed explanation regarding the implementation cand be found in the presentation directory. Moreover, a demo, showcasing the workflow of the proposed solution, can be found at the following link:
 https://www.youtube.com/watch?v=Klh-Bsb8nCM&t=50s&ab_channel=NicolaeAndreiVasile
